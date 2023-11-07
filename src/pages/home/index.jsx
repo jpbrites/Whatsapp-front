@@ -69,7 +69,7 @@ function Home() {
               <div className='chat-item'>
                 <img src = {Image} className='image-profile' alt=''/>
                 <div className='title-chat-container'>
-                  <span className='title-message'>Networking Profissão Programador</span>
+                  <span className='title-message'>Networking Profssão Programador</span>
                   <span className='last-message'>
                     {users.map((user, index) => (
                       <span>{user.name }{index + 1 < users.length ? ', ' : ''}</span>
