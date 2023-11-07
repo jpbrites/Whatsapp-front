@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./pages/home";
+import { AuthProvider } from "./AuthContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div>
+    <AuthProvider>
+      <Home/>
+
+    </AuthProvider>
+  </div>
   );
 }
 
 export default App;
+
+/*
+DESAFIOS OBRIGATÓRIOS
+
+- Estudar a documentação do socket.io (criação de rooms) para fazer chats individuais
+- Fazer os chats individuais
+
+DESAFIOS OPCIONAIS
+
+- Implementação de criação de conta e login
+- Mostrar quantidade de msg não lidas
+- Ser possível transitar em diferentes conversas
+- Ser possível fixar uma conversa ao topo
+
+*/

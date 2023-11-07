@@ -1,0 +1,77 @@
+.container-login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0C1317;
+  
+  }
+  
+  .background-login{
+    background-color: #00A884;
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .background-login img{
+    margin-bottom: 3rem;
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .background-login span{
+    margin-bottom: 3rem;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+  }
+  .area-login{
+    background-color: white;
+    border-radius: 7px;
+    width: 900px;
+    height: 520px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .area-login span{
+    font-size: 24px;
+    padding-bottom: 1.5rem;
+  }
+
+  .area-login input{
+    width: 250px;
+    border: none; /* Remove a borda padrão */
+    border-bottom: 1px solid #ccc; /* Adicione uma única borda na parte inferior */
+    padding: 5px; /* Adicione espaçamento interno para maior legibilidade */
+    font-size: 16px; /* Tamanho da fonte do texto no input */
+    outline: none; /* Remove a borda de foco padrão */
+    margin-bottom: 1.5rem;
+  }
+
+  .area-login input:hover {
+    border-color: #00A884; /* Altera a cor da borda no hover */
+  }
+  .area-login button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #00A884;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+  }
