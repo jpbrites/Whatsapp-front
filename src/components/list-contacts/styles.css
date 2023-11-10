@@ -1,0 +1,55 @@
+.list-container{
+    width: 30%;
+    height: 100%;
+    background-color: #111B21;
+}
+
+.list-title{
+    width: 100%;
+    height: 150px;
+    background-color: #202C33;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 0px 20px 20px;
+}
+
+.list-title div{
+    display: flex;
+    align-items: center;
+}
+
+.list-title span{
+   color: white;
+   font-size: 21px;
+   padding-left: 10px;
+}
+
+.list-contact-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #202C33;
+
+}
+
+.list-contact-container:hover{
+    background-color: #202C33;
+}
+.list-contact-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.list-contact-name{
+    color: white;
+    font-size: 19px;
+    padding-left: 10px;
+}

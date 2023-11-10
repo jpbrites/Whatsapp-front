@@ -1,13 +1,15 @@
 import React from "react";
 import Home from "./pages/home";
 import { AuthProvider } from "./AuthContext";
+import { UserListProvider } from "./UserListContext";
 
 function App() {
   return (
   <div>
     <AuthProvider>
-      <Home/>
-
+      <UserListProvider>
+        <Home/>
+      </UserListProvider>
     </AuthProvider>
   </div>
   );
